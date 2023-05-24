@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/car_conteiner"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:cardBackgroundColor="@color/white_milk"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp"
+    app:cardElevation="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+
+    <TextView
+        android:id="@+id/tvCarModel"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="@string/Model"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tvCarYear"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:text="@string/Year"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tvCarNumber"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/tvCarYear"
+        android:layout_marginRight="50dp"
+        android:text="@string/number"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

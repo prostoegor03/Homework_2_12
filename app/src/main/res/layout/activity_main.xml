@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/dark_oliva">
+
+    <EditText
+        android:id="@+id/etCarModel"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oliva"
+        android:hint="@string/CarTitle"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/etCarNumber"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oliva"
+        android:hint="@string/CarNumber"
+        android:textSize="24sp"
+        android:padding="4dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/etCarYear"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etCarNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/oliva"
+        android:hint="@string/CarYear"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/etCarYear"
+        android:backgroundTint="@color/white_milk"
+        android:textSize="24sp"
+        android:hint="@string/add"
+        />
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/addButton"
+        android:backgroundTint="@color/white_milk"
+        android:textSize="24sp"
+        android:hint="@string/viewing"
+        />
+
+</RelativeLayout>

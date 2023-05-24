@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework_2_12</string>
+    <string name="CarTitle">Марка автомобиля</string>
+    <string name="CarNumber">Номер автомобиля</string>
+    <string name="CarYear">Год выпуск</string>
+    <string name="add">Добавить</string>
+    <string name="viewing">Просмотреть</string>
+    <string name="Model">Модель</string>
+    <string name="Year">Год</string>
+    <string name="тгьиук">Номер</string>
+    <string name="number">номер</string>
+</resources>
